@@ -175,26 +175,34 @@ footer a{color:#69bdff}
   <h2>CONTACT US</h2>
   <p>Need assistance? Send us your service inquiry.</p>
   <p>📍 Cabuyao City, Laguna, Philippines</p>
-  <form action="mailto:johnelyn.rms@gmail.com"
-        method="post" enctype="text/plain">
-    <label>Your Name</label>
-    <input type="text" name="Customer Name" required>
-    <label>Email Address</label>
-    <input type="email" name="Email" required>
-    <label>Choose a Service</label>
-    <select name="Service">
-      <option>Computer Rental</option>
-      <option>Printing</option>
-      <option>Scanning</option>
-      <option>ID Pictures</option>
-      <option>Online Appointment Assistance</option>
-      <option>PC Repair and Formatting</option>
-      <option>Software Installation</option>
-    </select>
-    <label>Message</label>
-    <textarea name="Message" rows="4" required></textarea>
-    <button type="submit">Send Inquiry</button>
-  </form>
+<form action="https://formsubmit.co/YOUR-EMAIL@gmail.com"
+      method="POST">
+
+  <label>Your Name</label>
+  <input type="text" name="name" required>
+
+  <label>Email Address</label>
+  <input type="email" name="email" required>
+
+  <label>Choose a Service</label>
+  <select name="service">
+    <option>Computer Rental</option>
+    <option>Printing</option>
+    <option>Scanning</option>
+    <option>ID Pictures</option>
+    <option>Online Appointment Assistance</option>
+    <option>PC Repair and Formatting</option>
+    <option>Software Installation</option>
+  </select>
+
+  <label>Message</label>
+  <textarea name="message" rows="4" required></textarea>
+
+  <input type="hidden" name="_subject"
+         value="New ABC NET SERVICES Inquiry">
+
+  <button type="submit">Send Inquiry</button>
+</form>
   <p><small>Replace the sample email address with your actual
   business email before publishing.</small></p>
 </section>
